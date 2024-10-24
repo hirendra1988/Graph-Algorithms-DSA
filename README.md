@@ -24,12 +24,12 @@ E is the number of edges.
 This repository contains an implementation of the Depth-First Search (DFS) algorithm for traversing or searching through a graph or tree data structure. The algorithm explores as deep as possible along each branch before backtracking to explore other branches, making it useful for problems where exhaustive path exploration is required before moving to the next path.
 
 ## Features
-Implements DFS for an undirected graph.
-Supports adding edges between nodes.
-Displays the graph structure.
-Outputs the traversal order of nodes.
+- Implements DFS for an undirected graph.
+- Supports adding edges between nodes.
+- Displays the graph structure.
+- Outputs the traversal order of nodes.
 
-Time Complexity: O(V + E)
-Space Complexity: O(V)
-V is the number of vertices (nodes) in the graph. 
-E is the number of edges.
+- Time Complexity: O(V + E)
+- Space Complexity: O(V)
+- V is the number of vertices (nodes) in the graph. 
+- E is the number of edges.
