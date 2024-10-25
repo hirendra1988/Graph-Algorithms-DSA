@@ -12,8 +12,8 @@ This repository contains an implementation of the Breadth-First Search (BFS) alg
 - Outputs the traversal order of nodes.
 
 Time Complexity: O(V + E)<br />
-Space Complexity: O(V)
-V is the number of vertices (nodes) in the graph.
+Space Complexity: O(V)<br />
+V is the number of vertices (nodes) in the graph.<br />
 E is the number of edges.
 
 
@@ -30,9 +30,9 @@ This repository contains an implementation of the Depth-First Search (DFS) algor
 - Displays the graph structure.
 - Outputs the traversal order of nodes.
 
-Time Complexity: O(V + E)
-Space Complexity: O(V)
-V is the number of vertices (nodes) in the graph. 
+Time Complexity: O(V + E)<br />
+Space Complexity: O(V)<br />
+V is the number of vertices (nodes) in the graph.<br />
 E is the number of edges.
 
 
@@ -49,7 +49,8 @@ This repository contains an implementation of the Breadth-First Search (BFS) alg
 - Distance Output: Displays the shortest distance from the starting node to each reachable node.
 - Traversal Order: Outputs nodes in the order they are visited during BFS traversal.
   
-Time Complexity: O(V+E)
-Space Complexity: O(V)
-where V is the number of vertices and E is the number of edges.
+Time Complexity: O(V+E)<br />
+Space Complexity: O(V)<br />
+where V is the number of vertices<br />
+E is the number of edges.
 
