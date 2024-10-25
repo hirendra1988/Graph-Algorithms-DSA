@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let graph = DepthFirstSearch(vertexCount: 6)
+        let graph = ShortestPath(vertexCount: 6)
         graph.runTest()
     }
 
