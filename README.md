@@ -11,7 +11,7 @@ This repository contains an implementation of the Breadth-First Search (BFS) alg
 - Displays the graph structure.
 - Outputs the traversal order of nodes.
 
-Time Complexity: O(V + E)
+Time Complexity: O(V + E)<br />
 Space Complexity: O(V)
 V is the number of vertices (nodes) in the graph.
 E is the number of edges.
