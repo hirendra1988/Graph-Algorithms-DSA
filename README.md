@@ -13,8 +13,7 @@ This repository contains an implementation of the Breadth-First Search (BFS) alg
 
 Time Complexity: O(V + E)<br />
 Space Complexity: O(V)<br />
-V is the number of vertices (nodes) in the graph.<br />
-E is the number of edges.
+Where V is the number of vertices (nodes) in the graph and E is the number of edges.
 
 
 ----------------------------------------------------------------------------------------------
@@ -32,8 +31,7 @@ This repository contains an implementation of the Depth-First Search (DFS) algor
 
 Time Complexity: O(V + E)<br />
 Space Complexity: O(V)<br />
-V is the number of vertices (nodes) in the graph.<br />
-E is the number of edges.
+Where V is the number of vertices (nodes) in the graph and E is the number of edges.
 
 
 ----------------------------------------------------------------------------------------------
@@ -51,6 +49,5 @@ This repository contains an implementation of the Breadth-First Search (BFS) alg
   
 Time Complexity: O(V+E)<br />
 Space Complexity: O(V)<br />
-where V is the number of vertices<br />
-E is the number of edges.
+Where V is the number of vertices (nodes) in the graph and E is the number of edges.
 
