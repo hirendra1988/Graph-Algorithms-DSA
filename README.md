@@ -13,12 +13,9 @@ This repository contains an implementation of the Breadth-First Search (BFS) alg
 
 Time Complexity: O(V + E)<br />
 Space Complexity: O(V)<br />
-Where V is the number of vertices (nodes) in the graph and E is the number of edges.
+Where V is the number of vertices (nodes) in the graph and E is the number of edges.<br /><br />
 
-
-
-----------------------------------------------------------------------------------------------
-
+----------------------------------------------------------------------------------------------<br /><br />
 
 
 # 2. Depth-First Search (DFS) in Swift
