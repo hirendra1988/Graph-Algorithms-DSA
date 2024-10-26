@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let graph = ShortestPath(vertexCount: 6)
+        let graph = BFSDisconnectedGraph(vertexCount: 8)
         graph.runTest()
     }
 
