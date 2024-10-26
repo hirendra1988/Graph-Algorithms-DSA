@@ -51,3 +51,17 @@ Time Complexity: O(V+E)<br />
 Space Complexity: O(V)<br />
 Where V is the number of vertices (nodes) in the graph and E is the number of edges.
 
+# 4. Counting Disconnected Components in an Unweighted Graph Using BFS
+
+## Overview
+This repository provides an implementation of the Breadth-First Search (BFS) algorithm to count the total number of disconnected components in an unweighted, undirected graph. BFS systematically explores all nodes in each component, ensuring that every isolated section is identified and counted. This approach is ideal for problems that require identifying and counting separate groups within a graph.
+
+## Features
+- Disconnected Component Count: Uses BFS to identify and count each disconnected component in the graph by exploring from unvisited nodes.
+- Edge Management: Supports adding edges between nodes to construct and manage connections in the graph.
+- Component Tracking: Displays each disconnected component as a unique count and lists nodes within each component if desired.
+- Traversal Order: Outputs nodes in the order they are visited during BFS traversal for each component.
+
+Time Complexity: O(V + E)<br />
+Space Complexity: O(V)<br />
+Where V is the number of vertices (nodes) in the graph and E is the number of edges.
