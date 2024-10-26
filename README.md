@@ -16,7 +16,9 @@ Space Complexity: O(V)<br />
 Where V is the number of vertices (nodes) in the graph and E is the number of edges.
 
 
+
 ----------------------------------------------------------------------------------------------
+
 
 
 # 2. Depth-First Search (DFS) in Swift
@@ -34,7 +36,9 @@ Space Complexity: O(V)<br />
 Where V is the number of vertices (nodes) in the graph and E is the number of edges.
 
 
+
 ----------------------------------------------------------------------------------------------
+
 
 
 # 3. Shortest Path in an Unweighted Graph Using BFS
@@ -52,7 +56,9 @@ Space Complexity: O(V)<br />
 Where V is the number of vertices (nodes) in the graph and E is the number of edges.
 
 
+
 ----------------------------------------------------------------------------------------------
+
 
 
 # 4. Counting Disconnected Components in an Unweighted Graph Using BFS
@@ -69,3 +75,7 @@ This repository provides an implementation of the Breadth-First Search (BFS) alg
 Time Complexity: O(V + E)<br />
 Space Complexity: O(V)<br />
 Where V is the number of vertices (nodes) in the graph and E is the number of edges.
+
+
+
+
