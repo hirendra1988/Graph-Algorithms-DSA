@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let graph = BFSDisconnectedGraph(vertexCount: 8)
+        let graph = DFSUsingStack(vertexCount: 6)
         graph.runTest()
     }
 
