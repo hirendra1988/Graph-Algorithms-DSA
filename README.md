@@ -77,5 +77,22 @@ Space Complexity: O(V)<br />
 Where V is the number of vertices (nodes) in the graph and E is the number of edges.
 
 
+----------------------------------------------------------------------------------------------
+
+
+# 5. Depth-First Search (DFS) Using a Stack in Swift 🌐
+
+## Overview:
+This Swift implementation of Depth-First Search (DFS) uses a stack to traverse a graph, exploring each path as deeply as possible before backtracking. By using an iterative stack-based approach, we avoid recursion and make the algorithm suitable for graphs with deep or complex structures. Perfect for applications like maze solving, connectivity checks, and exhaustive path exploration.
+
+## Features:
+- Stack-Based DFS for Undirected Graphs: Implements DFS using a stack instead of recursion, making it safe from stack overflow in deep graphs.
+- Dynamic Edge Addition: Supports adding edges between nodes, creating a flexible graph structure.
+- Graph Visualization: Displays the graph structure for easy comprehension of connections.
+- Traversal Order Output: Outputs the order of node traversal, helping in debugging and understanding DFS flow.
+
+Time Complexity: O(V+E)<br />
+Space Complexity: O(V)<br />
+Where V is the number of vertices, and E is the number of edges.
 
 
