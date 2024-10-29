@@ -80,7 +80,7 @@ Where V is the number of vertices (nodes) in the graph and E is the number of ed
 ----------------------------------------------------------------------------------------------
 
 
-# 5. Depth-First Search (DFS) Using a Stack in Swift 🌐
+# 5. Depth-First Search (DFS) Using a Stack in Swift
 
 ## Overview:
 This Swift implementation of Depth-First Search (DFS) uses a stack to traverse a graph, exploring each path as deeply as possible before backtracking. By using an iterative stack-based approach, we avoid recursion and make the algorithm suitable for graphs with deep or complex structures. Perfect for applications like maze solving, connectivity checks, and exhaustive path exploration.
@@ -95,4 +95,19 @@ Time Complexity: O(V+E)<br />
 Space Complexity: O(V)<br />
 Where V is the number of vertices, and E is the number of edges.
 
+----------------------------------------------------------------------------------------------
 
+# 6. Detect Cycle in an Undirected Graph: Recursive Depth-First Search (DFS) in Swift
+
+## Overview:
+This Swift implementation of Depth-First Search (DFS) uses recursion to detect cycles in an undirected graph. By exploring each path as deeply as possible before backtracking, the algorithm identifies cycles by revisiting previously visited nodes from different paths. This recursive approach is simple to implement and effective for moderate graph depths.
+
+## Features:
+- Recursive Cycle Detection for Undirected Graphs: Uses a recursive DFS approach to detect cycles, making the code concise and easy to understand.
+- Dynamic Edge Addition: Supports adding edges between nodes, allowing flexible construction and modification of the graph.
+- Cycle Detection Logic: Checks for revisited nodes that aren’t the immediate parent in the recursion stack, identifying cycles effectively.
+- Traversal Order Output: Provides the order of node traversal, helping to understand the recursive flow and debugging.
+
+Time Complexity: O(V+E) — each vertex and edge is processed once,<br />
+Space Complexity: O(V) — for recursion stack depth and the visited set.<br />
+where V is the number of vertices and E is the number of edges.
