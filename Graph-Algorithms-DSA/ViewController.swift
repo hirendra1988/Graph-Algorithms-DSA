@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let graph = DetectCycle(vertexCount: 7)
+        let graph = DetectCycleInDirect(vertexCount: 6)
         graph.runTest()
     }
 
