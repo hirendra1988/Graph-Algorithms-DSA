@@ -111,3 +111,20 @@ This Swift implementation of Depth-First Search (DFS) uses recursion to detect c
 Time Complexity: O(V+E) — each vertex and edge is processed once,<br />
 Space Complexity: O(V) — for recursion stack depth and the visited set.<br />
 where V is the number of vertices and E is the number of edges.
+
+----------------------------------------------------------------------------------------------
+
+# 7. Detect Cycle in a Directed Graph: Recursive Depth-First Search (DFS) in Swift
+
+## Overview:
+This Swift implementation of Depth-First Search (DFS) uses recursion to detect cycles in a directed graph. By exploring each path as deeply as possible before backtracking, the algorithm identifies cycles by revisiting nodes that are still in the recursion stack. This recursive approach is efficient and straightforward for cycle detection in directed graphs.
+
+## Features:
+- Recursive Cycle Detection for Directed Graphs: Utilizes a recursive DFS approach to effectively identify cycles in directed graphs.
+- Dynamic Edge Addition: Supports adding directed edges between nodes, allowing flexible construction and modification of the graph.
+- Cycle Detection Logic: Utilizes a recursion stack (recStack) to track the current path. If a node is revisited while it is still in the recursion stack, a cycle is detected.
+- Traversal Order Output: Provides the order of node traversal, which helps in understanding the recursive flow and debugging.
+
+Time Complexity: O(V+E) — each vertex and edge is processed once.<br />
+Space Complexity: O(V) — for the recursion stack depth and the visited set.<br />
+V is the number of vertices and E is the number of edges)
