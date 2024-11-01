@@ -143,3 +143,19 @@ This Swift implementation of topological sorting uses Breadth-First Search (BFS)
 
 Time Complexity: O(V+E) — each vertex and edge is processed once, where V is the number of vertices and E is the number of edges.<br />
 Space Complexity: O(V) — for storing the in-degrees and the queue.<br />
+
+----------------------------------------------------------------------------------------------
+
+# 9. Topological Sorting in a Directed Graph: DFS
+
+## Overview
+This Swift implementation of topological sorting uses Depth-First Search (DFS) to produce a valid topological order for a directed acyclic graph (DAG). By recursively visiting nodes and marking them as visited, the algorithm builds an ordering of nodes, appending them to a result list after all their descendants have been processed.
+
+## Features
+- Topological Sorting for DAGs: Implements a DFS approach to obtain a valid topological order of nodes in a DAG by traversing the graph and storing nodes in a result list post-visit.
+- Dynamic Edge Addition: Supports adding directed edges between nodes, allowing for flexible graph construction and modification.
+- Cycle Detection: If the graph contains a cycle, the algorithm identifies it by the inability to process all nodes, thus confirming that the graph is not a DAG.
+  
+Time Complexity: O(V+E) — each vertex and edge is processed once, where V is the number of vertices and E is the number of edges.<br />
+Space Complexity: O(V) — for storing the visited status and the result list.
+
