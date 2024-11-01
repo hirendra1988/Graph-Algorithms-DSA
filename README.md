@@ -128,3 +128,18 @@ This Swift implementation of Depth-First Search (DFS) uses recursion to detect c
 Time Complexity: O(V+E) — each vertex and edge is processed once.<br />
 Space Complexity: O(V) — for the recursion stack depth and the visited set.<br />
 V is the number of vertices and E is the number of edges)
+
+----------------------------------------------------------------------------------------------
+
+# 8. Topological Sorting in a Directed Graph: BFS (Kahn's Algorithm) in Swift
+
+## Overview
+This Swift implementation of topological sorting uses Breadth-First Search (BFS) based on Kahn's Algorithm to produce a valid topological order for a directed acyclic graph (DAG). By processing nodes with zero incoming edges and iteratively removing edges, the algorithm builds an ordering of nodes with linear time complexity.
+
+## Features
+- Topological Sorting for DAGs: Implements Kahn's Algorithm using BFS to obtain a valid topological order of nodes in a DAG.
+- Dynamic Edge Addition: Supports adding directed edges between nodes, allowing for flexible graph construction and modification.
+- Cycle Detection: If the graph contains a cycle, the algorithm identifies it by the inability to process all nodes, thus confirming that the graph is not a DAG.
+
+Time Complexity: O(V+E) — each vertex and edge is processed once, where V is the number of vertices and E is the number of edges.<br />
+Space Complexity: O(V) — for storing the in-degrees and the queue.<br />
