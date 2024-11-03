@@ -159,3 +159,18 @@ This Swift implementation of topological sorting uses Depth-First Search (DFS) t
 Time Complexity: O(V+E) — each vertex and edge is processed once, where V is the number of vertices and E is the number of edges.<br />
 Space Complexity: O(V) — for storing the visited status and the result list.
 
+----------------------------------------------------------------------------------------------
+
+# 10. Prims Algorithm in a Undirected weighted graph
+
+## Overview
+This Swift implementation of Prim’s algorithm constructs a Minimum Spanning Tree (MST) for an undirected, weighted graph. By iteratively selecting the smallest-weight edge that connects the current MST to any remaining vertex, the algorithm builds the MST while tracking vertices inside and outside the spanning tree.
+
+## Features
+- Minimum Spanning Tree Construction: Implements a greedy approach to construct the MST by connecting vertices using the smallest-weight edge at each step.
+- Dynamic Edge Selection: Continuously updates the set of edges connecting MST vertices to non-MST vertices, ensuring the minimum edge is chosen in each iteration.
+- Graph Flexibility: Allows for easy updates to edge weights and vertices to dynamically reflect changes in the graph structure.
+
+Time Complexity O(V×E) — In each step, all edges from MST vertices to non-MST vertices are checked, where V is the number of vertices and E is the number of edges.<br />
+Space Complexity O(V+E) — For storing the adjacency list and tracking vertices in and out of the MST.
+
