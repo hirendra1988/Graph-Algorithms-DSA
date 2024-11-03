@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let graph = TopologicalSortUsingDFS(vertexCount: 5)
+        let graph = PrimsAlgorithmV1(vertexCount: 6)
         graph.runTest()
     }
 
