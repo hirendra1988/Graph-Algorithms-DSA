@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let graph = PrimsAlgorithmV2(vertexCount: 6)
+        let graph = DijkstraAlgo(vertexCount: 4)
         graph.runTest()
     }
 
