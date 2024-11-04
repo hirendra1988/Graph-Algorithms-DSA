@@ -189,3 +189,18 @@ This Swift implementation of Prim’s algorithm constructs a Minimum Spanning Tr
 Time Complexity O(V^2)<br />
 Space Complexity O(V+E)
 
+----------------------------------------------------------------------------------------------
+
+
+# 12. Dijkstra's Algorithm in an Undirected Weighted Graph
+
+## Overview
+This Swift implementation of Dijkstra’s algorithm calculates the shortest path from a source vertex to all other vertices in an undirected, weighted graph. By iteratively selecting the vertex with the smallest tentative distance and updating its neighbors, the algorithm efficiently finds the shortest paths while keeping track of visited and unvisited vertices.
+
+## Features
+- Shortest Path Calculation: Uses a greedy approach to continuously expand the shortest known path from the source vertex to all other vertices.
+- Dynamic Distance Update: Updates the tentative distance to each vertex in each iteration based on the shortest known path, ensuring the minimum distance is recorded for each vertex.
+- Graph Flexibility: Allows for easy modifications to edge weights and vertices, dynamically reflecting changes in the graph structure.
+
+Time Complexity: O(V^2) for the basic implementation<br />
+Space Complexity: O(V+E), where V is the number of vertices and E is the number of edges.
