@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let graph = UnionFindV1(size: 8)
+        let graph = UnionFindV2(size: 8)
         graph.runTest()
     }
 
