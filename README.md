@@ -204,3 +204,34 @@ This Swift implementation of Dijkstra’s algorithm calculates the shortest path
 
 Time Complexity: O(V^2) for the basic implementation<br />
 Space Complexity: O(V+E), where V is the number of vertices and E is the number of edges.
+
+----------------------------------------------------------------------------------------------
+
+# 13. Union-Find with Rank Optimization
+
+## Overview
+This Swift implementation of the Union-Find data structure, optimized with rank, efficiently manages the merging of disjoint sets in problems like cycle detection, graph connectivity, and Minimum Spanning Tree (MST) construction. The rank-based optimization ensures that the tree height remains balanced, improving performance by reducing the time complexity of union and find operations.
+
+## Features
+- Efficient Set Merging with Rank: By always attaching the smaller tree to the root of the larger tree (based on the rank), this approach minimizes the height of the trees, ensuring that subsequent find operations are faster.
+- Cycle Detection: When adding edges to a graph, Union-Find helps detect cycles by checking if two vertices belong to the same set. If they do, adding the edge would form a cycle.
+- Path Compression: Along with rank optimization, path compression is used during the find operation to flatten the structure of the tree, making future queries faster.
+- Graph Connectivity: Union-Find can be used to efficiently determine whether two vertices are in the same connected component in a graph.
+
+Time Complexity: O(α(V)) for both find and union operations, where α is the inverse Ackermann function, which grows extremely slowly, making these operations nearly constant time in practice.<br />
+Space Complexity: O(V), where V is the number of vertices, as it requires an array to store the parent and rank for each vertex.
+
+----------------------------------------------------------------------------------------------
+
+# 14. Kruskal’s Algorithm in an Undirected Weighted Graph
+
+##Overview
+This Swift implementation of Kruskal’s algorithm efficiently finds the Minimum Spanning Tree (MST) for an undirected, weighted graph. By sorting all edges and incrementally adding the smallest edge that doesn't form a cycle, Kruskal’s algorithm ensures that the resulting MST connects all vertices with the minimum possible total edge weight.
+
+## Features
+- Efficient MST Construction: Uses a greedy approach to select edges with the lowest weight, ensuring a minimum total edge cost across the graph’s spanning tree.
+- Cycle Prevention: Implements Union-Find (Disjoint Set) to prevent cycles as edges are added to the MST, maintaining the tree structure and ensuring each vertex is only included once.
+- Graph Flexibility: Easily accommodates different graph structures by dynamically adjusting to changes in vertices and edge weights, allowing the MST to update as needed.
+
+Time Complexity: O(ElogE), where E is the number of edges. Sorting the edges is the most time-consuming operation.<br />
+Space Complexity: O(V+E), where V is the number of vertices and E is the number of edges, to store edges and the Union-Find structure.
