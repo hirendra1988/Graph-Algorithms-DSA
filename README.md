@@ -225,7 +225,7 @@ Space Complexity: O(V), where V is the number of vertices, as it requires an arr
 
 # 14. Kruskal’s Algorithm in an Undirected Weighted Graph
 
-##Overview
+## Overview
 This Swift implementation of Kruskal’s algorithm efficiently finds the Minimum Spanning Tree (MST) for an undirected, weighted graph. By sorting all edges and incrementally adding the smallest edge that doesn't form a cycle, Kruskal’s algorithm ensures that the resulting MST connects all vertices with the minimum possible total edge weight.
 
 ## Features
@@ -235,3 +235,11 @@ This Swift implementation of Kruskal’s algorithm efficiently finds the Minimum
 
 Time Complexity: O(ElogE), where E is the number of edges. Sorting the edges is the most time-consuming operation.<br />
 Space Complexity: O(V+E), where V is the number of vertices and E is the number of edges, to store edges and the Union-Find structure.
+
+----------------------------------------------------------------------------------------------
+
+# 15. Number of Islands: Finding Connected Land Masses in a Grid
+
+Time Complexity: O(M×N), where M and N are the grid’s rows and columns, respectively. Each cell is visited once to check for island boundaries and connections.<br />
+Space Complexity: O(M×N), required for the visited matrix to track which cells have been checked, particularly in large grids.
+
