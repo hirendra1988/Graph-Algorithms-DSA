@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let graph = KruskalsAlgorithm()
+        let graph = NumberOfIslands()
         graph.runTest()
     }
 
