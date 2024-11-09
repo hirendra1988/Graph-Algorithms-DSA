@@ -34,6 +34,8 @@ class NumberOfIslands {
         var visited = [[Bool]](repeating: [Bool](repeating: false, count: cols), count: rows)
         for i in 0..<rows {
             for j in 0..<cols {
+                
+                // If the cell is land ('1') and has not been visited
                 if !visited[i][j] && grid[i][j] == "1" {
                     result += 1
                     dfs(i, j, rows, cols, &visited, grid)
@@ -48,15 +50,20 @@ class NumberOfIslands {
              _ visited: inout [[Bool]],
              _ grid: [[Character]]) {
 
+        // Boundary check: if out of grid bounds, return
         if i < 0 || i >= rows || j < 0 || j >= cols {
             return
         }
+        
+        // Check if the current cell is unvisited land
         if !visited[i][j] && grid[i][j] == "1" {
             visited[i][j] = true
-            dfs(i-1, j, rows, cols, &visited, grid)
-            dfs(i+1, j, rows, cols, &visited, grid)
-            dfs(i, j-1, rows, cols, &visited, grid)
-            dfs(i, j+1, rows, cols, &visited, grid)
+            
+            // Recursively apply DFS in all four directions
+            dfs(i-1, j, rows, cols, &visited, grid) // Up
+            dfs(i+1, j, rows, cols, &visited, grid) // Down
+            dfs(i, j-1, rows, cols, &visited, grid) // Left
+            dfs(i, j+1, rows, cols, &visited, grid) // Left
         }
     }
     
