@@ -5,6 +5,7 @@
 //  Created by Hirendra Sharma on 09/11/24.
 //
 
+//https://leetcode.com/problems/number-of-islands/
 class NumberOfIslands {
     
     func runTest() {
@@ -34,7 +35,6 @@ class NumberOfIslands {
         var visited = [[Bool]](repeating: [Bool](repeating: false, count: cols), count: rows)
         for i in 0..<rows {
             for j in 0..<cols {
-                
                 // If the cell is land ('1') and has not been visited
                 if !visited[i][j] && grid[i][j] == "1" {
                     result += 1
