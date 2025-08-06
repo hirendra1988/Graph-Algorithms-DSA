@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let graph = RottingOranges()
+        let graph = BellmanFord()
         graph.runTest()
     }
 

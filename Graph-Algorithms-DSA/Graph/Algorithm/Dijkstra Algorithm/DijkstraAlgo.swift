@@ -5,6 +5,8 @@
 //  Created by Hirendra Sharma on 04/11/24.
 //
 
+//https://www.youtube.com/watch?v=Kptz-NVA2RE
+//https://www.youtube.com/watch?v=TbzANA0ErDo
 class DijkstraAlgo {
     class Node {
         var vertex: Int
@@ -79,7 +81,3 @@ class DijkstraAlgo {
         print(d)
     }
 }
-
-//https://www.youtube.com/watch?v=Kptz-NVA2RE
-//https://www.youtube.com/watch?v=TbzANA0ErDo
-
